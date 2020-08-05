@@ -26,9 +26,11 @@ main {
     background-size: cover;
     background-position: 0 0;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 header {
     padding: 30px;
+    flex-grow: 1;
 }
 .header__top {
     display: flex;
@@ -86,7 +88,8 @@ header {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     padding: 30px;
-    height: 100%;
+    /* height: 100%; */
+    flex-grow: 2;
 }
 .main__country {
     margin-bottom: 35px;
