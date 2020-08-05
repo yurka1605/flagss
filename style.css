@@ -82,13 +82,13 @@ header {
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: 0 10px;
     background-color: #ffffff;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     padding: 30px;
-    /* height: 100%; */
+    height: 100%;
     flex-grow: 2;
 }
 .main__country {
